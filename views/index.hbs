@@ -1,3 +1,17 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
-<p>Welcome to {{cams}}</p>
+<h1 class="header">New Zealand</h1>
+{{#each camera}}
+<div class="border">
+<p>Welcome to {{city}}</p>
+<p>Region: {{region}}</p>
+<p>Latitude: {{latitude}}</p>
+<p>Longitude: {{longitude}}</p>
+<p>Zip: {{zip}}</p>
+<p>Timezone: {{timezone}}</p>
+<p>Manufacturer: {{manufacturer}}</p>
+</div>
+<br>
+{{/ each}}
+
+<input type="" name="name" value="">
+
+<button type="button" name="button">Find out</button>
