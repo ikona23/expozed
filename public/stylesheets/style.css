@@ -1,11 +1,17 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: rgb(141, 149, 194)
+  background-image:url(../images/sc.jpg);
 }
 
 .header {
   text-align:center;
+
+}
+
+input {
+  margin-left:auto;
+  margin-right:auto;
 }
 
 a {
@@ -13,6 +19,7 @@ a {
 }
 
 .border {
+  background-image:url(localhost:3000/images/sc.jpg) bottom center no-repeat;
     margin-left:auto;
     margin-right:auto;
     border-style: solid;

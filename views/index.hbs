@@ -1,17 +1,17 @@
 <h1 class="header">New Zealand</h1>
+<input type="" name="name" value="">
+<button type="button" name="button">Find out</button>
+
 {{#each camera}}
 <div class="border">
-<p>Welcome to {{city}}</p>
-<p>Region: {{region}}</p>
-<p>Latitude: {{latitude}}</p>
-<p>Longitude: {{longitude}}</p>
-<p>Zip: {{zip}}</p>
-<p>Timezone: {{timezone}}</p>
-<p>Manufacturer: {{manufacturer}}</p>
-</div>
+  <h4>Welcome to {{city}}</h4>
+    <p>Region: {{region}}</p>
+    <p>Latitude: {{latitude}}</p>
+    <p>Longitude: {{longitude}}</p>
+    <p>Zip: {{zip}}</p>
+    <p>Timezone: {{timezone}}</p>
+    <p>Manufacturer: {{manufacturer}}</p>
+    <p>Photo {{photo}}</p>
+  </div>
 <br>
 {{/ each}}
-
-<input type="" name="name" value="">
-
-<button type="button" name="button">Find out</button>
